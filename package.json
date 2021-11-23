@@ -2,8 +2,7 @@
   "name": "aws-sdk-js-v3-rds-signer",
   "version": "1.0.1",
   "description": "An AWS IAM database authentication token signer for RDS, implementing RDS.Signer for AWS SDK for JS v3",
-  "type": "module",
-  "exports": "./index.js",
+  "main": "./index.js",
   "types": "./index.d.ts",
   "scripts": {
     "test": "standard && tap && tsd"
